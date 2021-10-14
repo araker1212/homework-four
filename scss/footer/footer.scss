@@ -9,6 +9,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 0 150px;
+  margin-top: 50px;
 
   img {
     width: 96px;
@@ -21,14 +22,10 @@ footer {
   }
 
   .media {
-    width: 200px;
-    height: 30px;
-
-    a {
-      font-size: 12px;
-      font-family: GS;
-      text-decoration: none;
-      color: white;
+    img {
+      filter: grayscale(white);
+      height: 23px;
+      width: 23px;
     }
   }
 }
